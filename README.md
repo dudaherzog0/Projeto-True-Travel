@@ -1,2 +1,80 @@
-# Projeto-True-Travel
-repositório criado para armazenar o Dashboard interativo do projeto True Travel. 
+# Projeto True Travel
+
+## Objetivo
+Este projeto tem como objetivo apresentar meus conhecimentos referentes à modelagem de dados, estruturação de banco de dados e geração de insights a partir dos dados da empresa fictícia True Travel.
+
+---
+
+## Metodologia
+
+- Modelagem de dados utilizando o método **Snowflake**  
+- Estruturação do banco de dados através da ferramenta **MySQL**  
+- Construção de dashboards no **Power BI** utilizando a metodologia de **storytelling com dados**
+
+---
+
+## Cronologia do Projeto
+
+1. Definir o modelo de negócios da empresa True Travel  
+2. Determinar quais perguntas de negócio serão respondidas através dos dashboards  
+3. Modelagem do banco de dados  
+4. Estruturação e organização do banco de dados  
+5. Estruturação de medidas, OKR’s e KPI’s  
+6. Organização das visualizações  
+
+---
+
+# Modelo de Negócio
+
+A **True Travel** é uma empresa do setor de turismo que atua exclusivamente de forma online desde 2020. Atualmente, a empresa conta com uma equipe de **4 colaboradores**, cada um com salário fixo de **R$ 1.600,00**.
+
+A empresa estabelece uma **meta mensal de vendas de R$ 300.000,00**. Quando essa meta é atingida, cada colaborador recebe uma **bonificação de R$ 300,00**.
+
+Além disso, existe também uma **meta individual de vendas de R$ 80.000,00 por colaborador**. Ao alcançá-la, o colaborador recebe uma **bonificação adicional de R$ 200,00**.
+
+Em relação à receita:
+
+- A **True Travel** obtém **10% sobre o valor total das vendas realizadas**
+- Cada colaborador recebe **2% de comissão sobre as vendas efetuadas**
+
+---
+
+# Perguntas de Negócio
+
+## Visão Geral da Empresa
+
+- Qual é o total de vendas realizadas?
+- Qual é o faturamento mensal da empresa?
+- Qual é o lucro mensal obtido?
+- Qual é a margem de lucro da empresa?
+- Qual vendedor realizou o maior volume de vendas em cada mês?
+- A empresa atingiu a meta mensal de **R$ 300.000,00** em vendas?
+
+---
+
+## Análise dos Colaboradores
+
+- Os colaboradores atingiram suas metas individuais?
+- Qual é o valor de comissionamento recebido por cada colaborador?
+- Qual é o salário de cada colaborador?
+- Qual é o total de despesas geradas por colaborador?
+- Quais bonificações foram pagas (meta individual e meta da empresa)?
+- Quanto de lucro cada colaborador gera para a empresa?
+
+---
+
+## Análise das Viagens
+
+- Qual é a quantidade de viagens no mês de referência?
+- Quais clientes têm viagens programadas para o mês atual?
+- Qual é o ticket médio por cliente?
+- Quais são os destinos mais procurados no mês?
+- Quais clientes mais compram viagens com a agência?
+- Qual é o total mensal de viagens realizadas?
+
+---
+
+## Modelagem de Dados
+Para a estruturação do banco de dados foi adotado o **modelo Snowflake (Floco de Neve)**.
+
+Esse modelo é uma variação do modelo dimensional tradicional, no qual as **tabelas dimensionais são normalizadas e organizadas em múltiplos níveis**, criando uma estrutura semelhante a um floco de neve. Diferente do modelo Star Schema, onde todas as dimensões se conectam diretamente à tabela fato, no Snowflake algumas dimensões se relacionam entre si.
