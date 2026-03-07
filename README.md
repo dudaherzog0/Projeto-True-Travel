@@ -24,7 +24,7 @@ Este projeto tem como objetivo apresentar meus conhecimentos referentes à model
 
 ---
 
-# Modelo de Negócio
+# Modelo de Negócios
 
 A **True Travel** é uma empresa do setor de turismo que atua exclusivamente de forma online desde 2020. Atualmente, a empresa conta com uma equipe de **4 colaboradores**, cada um com salário fixo de **R$ 1.600,00**.
 
@@ -39,7 +39,7 @@ Em relação à receita:
 
 ---
 
-# Perguntas de Negócio
+# Perguntas de Negócios
 
 ## Visão Geral da Empresa
 
@@ -80,5 +80,19 @@ Para a estruturação do banco de dados foi adotado o **modelo Snowflake (Floco 
 Diferentemente do modelo Star Schema, no qual todas as dimensões se conectam diretamente à tabela fato, o modelo Snowflake permite que algumas dimensões se relacionem entre si. Essa estrutura proporciona um maior nível de granularidade dos dados, favorecendo uma organização mais detalhada e estabelecendo relações mais estruturadas entre as tabelas dimensionais e a tabela fato.
 
 <img width="632" height="422" alt="Modelagem" src="https://github.com/user-attachments/assets/72913308-f398-452e-a65d-e2552f5ee545" />
+
+---
+
+## Dashboard Interativo True Travel
+
+Para possibilitar uma análise mais eficiente dos dados e dos insights gerados a partir das perguntas de negócio definidas, foi desenvolvido o dashboard a seguir utilizando o Power BI. Posteriormente, o dashboard foi publicado na web e disponibilizado no GitHub para acesso público.
+
+Dashboard disponivel no link: https://dudaherzog0.github.io/Projeto-True-Travel/ 
+
+Pré visualização: 
+
+<img width="1481" height="831" alt="Captura de tela 2026-03-06 170124" src="https://github.com/user-attachments/assets/e81fcfbc-0988-48d8-a6e3-b9082ad2a5f5" />
+<img width="1315" height="738" alt="Captura de tela 2026-03-06 220254" src="https://github.com/user-attachments/assets/e5048d97-0566-4a61-9533-fcf816be1f98" />
+<img width="1480" height="831" alt="Captura de tela 2026-03-06 170338" src="https://github.com/user-attachments/assets/60dcb8d2-5ebe-4fc4-beda-27e294be15aa" />
 
 
