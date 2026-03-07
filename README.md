@@ -81,4 +81,12 @@ Diferentemente do modelo Star Schema, no qual todas as dimensões se conectam di
 
 <img width="632" height="422" alt="Modelagem" src="https://github.com/user-attachments/assets/72913308-f398-452e-a65d-e2552f5ee545" />
 
+---
 
+## Dashboard Interativo True Travel
+
+Para possibilitar uma análise mais eficiente dos dados e dos insights gerados a partir das perguntas de negócio definidas, foi desenvolvido o dashboard a seguir utilizando o Power BI. Posteriormente, o dashboard foi publicado na web e disponibilizado no GitHub para acesso público.
+
+Dashboard disponivel no link: https://dudaherzog0.github.io/Projeto-True-Travel/ 
+
+Pre-view: 
