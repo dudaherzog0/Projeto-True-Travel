@@ -77,4 +77,8 @@ Em relação à receita:
 ## Modelagem de Dados
 Para a estruturação do banco de dados foi adotado o **modelo Snowflake (Floco de Neve)**.
 
-Esse modelo é uma variação do modelo dimensional tradicional, no qual as **tabelas dimensionais são normalizadas e organizadas em múltiplos níveis**, criando uma estrutura semelhante a um floco de neve. Diferente do modelo Star Schema, onde todas as dimensões se conectam diretamente à tabela fato, no Snowflake algumas dimensões se relacionam entre si.
+Diferentemente do modelo Star Schema, no qual todas as dimensões se conectam diretamente à tabela fato, o modelo Snowflake permite que algumas dimensões se relacionem entre si. Essa estrutura proporciona um maior nível de granularidade dos dados, favorecendo uma organização mais detalhada e estabelecendo relações mais estruturadas entre as tabelas dimensionais e a tabela fato.
+
+<img width="632" height="422" alt="Modelagem" src="https://github.com/user-attachments/assets/72913308-f398-452e-a65d-e2552f5ee545" />
+
+
