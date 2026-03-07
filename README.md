@@ -91,8 +91,10 @@ Dashboard disponivel no link: https://dudaherzog0.github.io/Projeto-True-Travel/
 
 Pré visualização: 
 
-<img width="1481" height="831" alt="Captura de tela 2026-03-06 170124" src="https://github.com/user-attachments/assets/e81fcfbc-0988-48d8-a6e3-b9082ad2a5f5" />
-<img width="1315" height="738" alt="Captura de tela 2026-03-06 220254" src="https://github.com/user-attachments/assets/e5048d97-0566-4a61-9533-fcf816be1f98" />
-<img width="1480" height="831" alt="Captura de tela 2026-03-06 170338" src="https://github.com/user-attachments/assets/60dcb8d2-5ebe-4fc4-beda-27e294be15aa" />
+<img width="1314" height="736" alt="Captura de tela 2026-03-06 222859" src="https://github.com/user-attachments/assets/1ba75cc7-0679-48f1-9583-87c3a7da10c3" />
+<img width="1314" height="739" alt="Captura de tela 2026-03-06 222928" src="https://github.com/user-attachments/assets/cfb60591-774b-47d3-8211-47020abbdc1b" />
+<img width="1315" height="738" alt="Captura de tela 2026-03-06 223154" src="https://github.com/user-attachments/assets/3c6a0510-8485-4b1e-ac39-1b40f781dc0b" />
+
+
 
 
